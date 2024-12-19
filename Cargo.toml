@@ -1,0 +1,13 @@
+[package]
+name = "rs-point"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+pnet = "0.35.0"
+pnet_transport = "0.35.0"
+rand = "0.8.5"
+log = "0.4.22"
+tokio = { version = "1.42.0", features = ["full"] }
+sysinfo = "0.33.0"
